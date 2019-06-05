@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adventure Time Fan Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+
+    <!-- Background-image was taken from : https://wall.alphacoders.com/big.php?i=442432 -->
+    <!-- Character images were taken from: https://www.deviantart.com/biscuitatus/art/Adventure-Time-Portrait-Series-608559979 -->
+
+</head>
+
+<body>
+    <div class="jumbotron fluid-jumbotron header mb-0">
+        <div class="row justify-content-center p-2">
+            <h1 class="display-4 text-white text-center">Harry Potter Trivia!</h1>
+        </div>
+    </div>
+    <div class="jumbotron stopwatch justify-content-center">
+        <div class="text-center">
+            <div class="p-3">
+                <h2>Time Remaining: <span class="remaining-time"></span></h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <div class="col-md-10 text-center question m-3 p-1 lead">
+                <p>What is the number of the vault that belongs to Harry at the Gringotts Wizarding Bank?</p>
+                <hr>
+                <input type="radio" id="394" name="option" value="false">
+                <label for="394" class="mr-3">394</label>
+                <input type="radio" id="687" name="option" value="true">
+                <label for="687" class="mr-3">687</label>
+                <input type="radio" id="713" name="option" value="false">
+                <label for="713" class="mr-3">713</label>
+                <input type="radio" id="547" name="option" value="false">
+                <label for="547" class="mr-3">547</label>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="assets/hptrivia.js"></script>
+</body>
+
+</html>
