@@ -1,5 +1,7 @@
 body {
     background-image: url("../assets/images/Hogwarts-Castle-Desktop-Wallpaper.jpg");
+    background-size: cover;
+    background-repeat: repeat;
 }
 
 .header {
@@ -7,6 +9,13 @@ body {
 }
 
 .stopwatch {
+    background-color: rgba(214, 214, 214, 0.507);
+    max-width: 800px;
+    width:100%;
+    margin:auto;
+}
+
+.questionBlock {
     background-color: rgba(214, 214, 214, 0.507);
     max-width: 800px;
     width:100%;
