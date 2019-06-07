@@ -11,6 +11,7 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="icon" href="assets/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Cookie|Homemade+Apple|Sacramento&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
 
     <!-- Background-image was taken from : https://wallpapercave.com/w/4NwstUc -->
@@ -20,7 +21,7 @@
 <body>
     <div class="jumbotron fluid-jumbotron header mb-2">
         <div class="row justify-content-center p-2">
-            <h1 class="display-4 text-white text-center">Harry Potter Trivia!</h1>
+            <h1 class="display-2 text-white text-center">Harry Potter Trivia!</h1>
         </div>
     </div>
     <div class="jumbotron stopwatch justify-content-center">
@@ -34,16 +35,215 @@
         <div class="jumbotron questionBlock mt-2">
             <div class="row justify-content-center">
                 <div class="col-md-10 text-center question m-3 p-1 lead">
-                    <p>What is the number of the vault that belongs to Harry at the Gringotts Wizarding Bank?</p>
+
+                    <!-- question-1 -->
+                    <div class="row display-content-center">
+                        <div class="col-3 display-1">
+                            <p class="questionNumber pt-4 pr-2">1</p>
+                        </div>
+                        <div class="col-9">
+                            <p>What is the number of the vault that belongs to Harry at the Gringotts Wizarding Bank?
+                            </p>
+                        </div>
+                    </div>
                     <hr>
-                    <input type="radio" id="394" name="option" value="false">
+                    <input type="radio" id="answer-1-1" name="answer-1" value="false">
                     <label for="394" class="mr-3">394</label>
-                    <input type="radio" id="687" name="option" value="true">
+                    <input type="radio" id="answer-1-2" name="answer-1" value="true">
                     <label for="687" class="mr-3">687</label>
-                    <input type="radio" id="713" name="option" value="false">
+                    <input type="radio" id="answer-1-3" name="answer-1" value="false">
                     <label for="713" class="mr-3">713</label>
-                    <input type="radio" id="547" name="option" value="false">
-                    <label for="547" class="mr-3">547</label>
+                    <input type="radio" id="answer-1-4" name="answer-1" value="false">
+                    <label for="answer-1-4" class="mr-3">547</label>
+                    <hr class="divider">
+
+                    <!-- question-2 -->
+                    <div class="row display-content-center">
+                        <div class="col-3 display-1">
+                            <p class="questionNumber pt-4 pr-2">2</p>
+                        </div>
+                        <div class="col-9">
+                            <p>What was James Potter's position in Quidditch?
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <input type="radio" id="answer-2-1" name="answer-2" value="false">
+                    <label for="beater" class="mr-3">Beater</label>
+                    <input type="radio" id="answer-2-2" name="answer-2" value="true">
+                    <label for="seeker" class="mr-3">Seeker</label>
+                    <input type="radio" id="answer-2-3" name="answer-2" value="false">
+                    <label for="chaser" class="mr-3">Chaser</label>
+                    <input type="radio" id="answer-2-4" name="answer-2" value="false">
+                    <label for="keeper" class="mr-3">Keeper</label>
+                    <hr class="divider">
+
+                    <!-- question-3 -->
+                    <div class="row display-content-center">
+                        <div class="col-3 display-1">
+                            <p class="questionNumber pt-4 pr-1">3</p>
+                        </div>
+                        <div class="col-9">
+                            <p>Which of these is a type of Love Potion?
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <input type="radio" id="answer-3-1" name="answer-3" value="true">
+                    <label for="amortentia" class="mr-3">Amortentia</label>
+                    <input type="radio" id="answer-3-2" name="answer-3" value="false">
+                    <label for="felixFelicis" class="mr-3">Felix Felicis</label>
+                    <input type="radio" id="answer-3-3" name="answer-3" value="false">
+                    <label for="polyJuice" class="mr-3">Polyjuice Potion</label>
+                    <input type="radio" id="answer-3-4" name="answer-3" value="false">
+                    <label for="veritaserum" class="mr-3">Veritaserum</label>
+                    <hr class="divider">
+
+                    <!-- question-4 -->
+                    <div class="row display-content-center">
+                        <div class="col-3 display-1">
+                            <p class="questionNumber pt-4 pr-2">4</p>
+                        </div>
+                        <div class="col-9">
+                            <p>What class did Neville end up teaching at Hogwarts?
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <input type="radio" id="answer-4-1" name="answer-4" value="false">
+                    <label for="astronomy" class="mr-3">Astronomy</label>
+                    <input type="radio" id="answer-4-2" name="answer-4" value="false">
+                    <label for="charms" class="mr-3">Charms</label>
+                    <input type="radio" id="answer-4-3" name="answer-4" value="false">
+                    <label for="muggleStudies" class="mr-3">Muggle Studies</label>
+                    <input type="radio" id="answer-4-4" name="answer-4" value="true">
+                    <label for="herbology" class="mr-3">Herbology</label>
+                    <hr class="divider">
+
+                    <!-- question-5 -->
+                    <div class="row display-content-center">
+                        <div class="col-3 display-1">
+                            <p class="questionNumber pt-4 pr-2">5</p>
+                        </div>
+                        <div class="col-9">
+                            <p>Who was the original bearer of the cloak of invisibility?
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <input type="radio" id="answer-5-1" name="answer-5" value="true">
+                    <label for="Ignotus Peverell" class="mr-3">Ignotus Peverell</label>
+                    <input type="radio" id="answer-5-2" name="answer-5" value="false">
+                    <label for="Albus Dumbledore" class="mr-3">Albus Dumbledore</label>
+                    <input type="radio" id="answer-5-3" name="answer-5" value="false">
+                    <label for="James Potter" class="mr-3">James Potter</label>
+                    <input type="radio" id="answer-5-4" name="answer-5" value="false">
+                    <label for="Harry Potter" class="mr-3">Harry Potter</label>
+                    <hr class="divider">
+
+                    <!-- question-6 -->
+                    <div class="row display-content-center">
+                        <div class="col-3 display-1">
+                            <p class="questionNumber pt-4 pr-2">6</p>
+                        </div>
+                        <div class="col-9">
+                            <p>Which of these are not one of Hagrid's many pets?
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <input type="radio" id="answer-6-1" name="answer-6" value="false">
+                    <label for="fluffy" class="mr-3">Fluffy</label>
+                    <input type="radio" id="answer-6-2" name="answer-6" value="true">
+                    <label for="grawp" class="mr-3">Grawp</label>
+                    <input type="radio" id="answer-6-3" name="answer-6" value="false">
+                    <label for="norberta" class="mr-3">Norberta</label>
+                    <input type="radio" id="answer-6-4" name="answer-6" value="false">
+                    <label for="aragog" class="mr-3">Aragog</label>
+                    <hr class="divider">
+
+                    <!-- question-7 -->
+                    <div class="row display-content-center">
+                        <div class="col-3 display-1">
+                            <p class="questionNumber pt-4 pr-2">7</p>
+                        </div>
+                        <div class="col-9">
+                            <p>Which of these was not a horcrux of Lord Voldemort?
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <input type="radio" id="answer-7-1" name="answer-7" value="false">
+                    <label for="Tom Riddle's Diary" class="mr-3">Tom Riddle's Diary</label>
+                    <input type="radio" id="answer-7-2" name="answer-7" value="false">
+                    <label for="The diadem of Rowena Ravenclaw" class="mr-3">The diadem of Rowena Ravenclaw</label>
+                    <input type="radio" id="answer-7-3" name="answer-7" value="false">
+                    <label for="Nagini" class="mr-3">Nagini</label>
+                    <input type="radio" id="answer-7-4" name="answer-7" value="true">
+                    <label for="The sword of Godric Gryffindor" class="mr-3">The sword of Godric Gryffindor</label>
+                    <hr class="divider">
+
+                    <!-- question-8 -->
+                    <div class="row display-content-center">
+                        <div class="col-3 display-1">
+                            <p class="questionNumber pt-4 pr-1">8</p>
+                        </div>
+                        <div class="col-9">
+                            <p>What was Dumbledore's sisters name?
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <input type="radio" id="answer-8-1" name="answer-8" value="true">
+                    <label for="Ariana" class="mr-3">Ariana</label>
+                    <input type="radio" id="answer-8-2" name="answer-8" value="false">
+                    <label for="Minerva" class="mr-3">Minerva</label>
+                    <input type="radio" id="answer-8-3" name="answer-8" value="false">
+                    <label for="Rita" class="mr-3">Rita</label>
+                    <input type="radio" id="answer-8-4" name="answer-8" value="false">
+                    <label for="Abella" class="mr-3">Abella</label>
+                    <hr class="divider">
+
+                    <!-- question-9 -->
+                    <div class="row display-content-center">
+                        <div class="col-3 display-1">
+                            <p class="questionNumber pt-4 pr-2">9</p>
+                        </div>
+                        <div class="col-9">
+                            <p>Finish This Quote: 'I open at the...'
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <input type="radio" id="answer-9-1" name="answer-9" value="false">
+                    <label for="dawn" class="mr-3">dawn</label>
+                    <input type="radio" id="answer-9-2" name="answer-9" value="true">
+                    <label for="close" class="mr-3">close</label>
+                    <input type="radio" id="answer-9-3" name="answer-9" value="false">
+                    <label for="light" class="mr-3">light</label>
+                    <input type="radio" id="answer-9-4" name="answer-9" value="false">
+                    <label for="end" class="mr-3">end</label>
+                    <hr class="divider">
+
+                    <!-- question-10 -->
+                    <div class="row display-content-center">
+                        <div class="col-3 display-1">
+                            <p class="questionNumber pt-4 pr-2">10</p>
+                        </div>
+                        <div class="col-9">
+                            <p>"After all this time?"
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <input type="radio" id="answer-10-1" name="answer-10" value="false">
+                    <label for="Yes" class="mr-3">Yes</label>
+                    <input type="radio" id="answer-10-2" name="answer-10" value="false">
+                    <label for="I still care" class="mr-3">I still care</label>
+                    <input type="radio" id="answer-10-3" name="answer-10" value="false">
+                    <label for="It never stops" class="mr-3">It never stops</label>
+                    <input type="radio" id="answer-10-4" name="answer-10" value="true">
+                    <label for="Always" class="mr-3">Always</label>
                 </div>
             </div>
         </div>
